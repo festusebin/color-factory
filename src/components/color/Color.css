@@ -1,0 +1,16 @@
+.Color {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .Color a {
+    color: #a8a7a7;
+  }

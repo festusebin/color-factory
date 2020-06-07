@@ -1,0 +1,84 @@
+.ColorList {
+    text-align: center;
+  }
+  
+  .ColorList-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .ColorList-header a {
+    color: goldenrod;
+  }
+  
+  .ColorList-title {
+    font-size: 1.5em;
+  }
+  
+  .Color-add {
+    color: goldenrod;
+  }
+  .ColorList-intro {
+    font-size: large;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-transform: capitalize;
+  }
+
+  .icon-left {
+    color: gold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    /* transform: rotate(3deg); */
+     /* transform: rotate(0.3rad);/ */
+     /* transform: rotate(3grad); */ 
+     /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+
+
+
+
+.icon-right {
+    color: gold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    /* transform: rotate(3deg); */
+     /* transform: rotate(0.3rad);/ */
+     /* transform: rotate(3grad); */ 
+     /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+
+
